@@ -70,7 +70,7 @@ canvasEl.addEventListener("mousemove", (e) => {
   if (isPressed) {
     let x2 = e.offsetX;
     let y2 = e.offsetY;
-    // drawCircle(x2, y2);
+    drawCircle(x2, y2);
     drawLine(x1, y1, x2, y2);
     x1 = x2;
     y1 = y2;
